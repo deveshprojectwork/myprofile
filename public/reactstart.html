@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <body>
+  
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      class Hello extends React.Component {
+        render() {
+          return (
+            <div> 
+                <h1>Hello World!</h1>
+                <div>
+                <h1>Setting up a React Environment</h1><br />
+                If you have NPM and Node.js installed, you can create a React application by first installing the create-react-app.
+                If you've already created the create-react-app you can skip this section.<br />
+                Install create-react-app by running this command in your terminal: <br /><br />
+                C:\Users\Your Name&gt;<b>npm install -g create-react-app</b><br />
+                Then you are able to create a React application, let's create one called myfirstreact.
+                Run this command to create a React application named myfirstreact:<br /><br />
+                C:\Users\Your Name&gt;<b>npx create-react-app myfirstreact</b><br />
+                The create-react-app will set up everything you need to run a React application.<br />
+                Run the React Application<br />
+                Now you are ready to run your first real React application!<br />
+                Run this command to move to the myfirstreact directory:<br /><br />
+                C:\Users\Your Name&gt;<b>cd myfirstreact</b><br />
+                Run this command to run the React application myfirstreact:<br /><br />
+                C:\Users\Your Name\myfirstreact&gt;<b>npm start</b><br />
+                A new browser window will pop up with your newly created React App! If not, open your browser and type localhost:3000 in the address bar.
+                </div>
+            </div>
+          )
+        }
+      }
+
+      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+    </script>
+  </body>
+</html>
