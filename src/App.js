@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
        {/* <!--menu toggle--> */}
       <div className="menu-toggle" id="menuToggle">
           <span></span>
@@ -95,7 +95,11 @@ function App() {
       {/* <!--main--> */}
       <div className="main">
           {/* <!--Home --> */}
-          <section className="home bg-light vh-100" id="home" style={{backgroundImage: 'url(https://mariame.netlify.app/assets/img/bg/bg.jpg)'}}>
+            {/* <section className="home bg-light vh-100" id="home"  > */}
+          <section className="home bg-light vh-100" id="home" style={{backgroundImage: 'url(./images/profile2.jpg)'}} >
+          {/* <section className="home bg-light vh-100" id="home" style={{backgroundImage: 'url(https://images.pexels.com/photos/3759099/pexels-photo-3759099.jpeg)'}} > */}
+          {/* <section className="home bg-light vh-100" id="home" style={{backgroundImage: 'url(https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg)'}} > */}
+          {/* <section className="home bg-light vh-100" id="home" style={{backgroundImage: 'url(https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg)'}} > */}
         <div className="container ">
           <div className="row ">
             <div className="col-lg-12 ">
@@ -113,11 +117,11 @@ function App() {
                 <div className="full-width">
                   <div className="banner">
                     <h6 className="text-dark">Hi There,</h6>
-                    <h1 className="cd-headline clip text-dark">I Am a 
+                    <h1 className="cd-headline clip text-dark">I Am a
                       <span className="cd-words-wrapper" style={{width: '41.8834px', overflow: 'hidden'}}>
-                        <b className="is-visible"> Developer</b>
-                        <b className="is-hidden">Designer</b>
-                        {/* <b class="is-hidden">Freelancer</b> */}
+                        <b className="is-visible">&nbsp;Developer</b>
+                        <b className="is-hidden">&nbsp;Designer</b>
+                        {/* <b class="is-hidden">&nbsp;Freelancer</b> */}
                       </span>
                     </h1>
                     <p className="max-width-450 text-dark mt-20 mb-30">
@@ -445,11 +449,22 @@ function App() {
                                  <h2>01</h2>
                               </div>
                               <div className="content ">
-                                  <h5 className="text-dark mt-15 mb-10">Photography</h5>
+                                  <h5 className="text-dark mt-15 mb-10">Full Stack Development</h5>
                                   <p className="text-dark mb-0">
-                                       Lorem ipsum dolor sit amet consectetuer 
-                                       adipiscing elit aenean commodo ligula eget.
+                                  Experience in fullstack development.
                                   </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-sm-6 col-lg-4">
+                          <div className="item">
+                              <div className="circle">
+                                  <h2>03</h2>
+                              </div>
+                              <div className="content">
+                                  <h5 className="text-dark  mt-15 mb-10">Web Development</h5>
+                                  <p className="text-dark mb-0"> Experience in both frontend technology and backend technoolgy. 
+                                       I am able to work on the React, Angular and MongoDB, Prostgre-Sql and Sql Server</p>
                               </div>
                           </div>
                       </div>
@@ -461,31 +476,21 @@ function App() {
                               <div className="content">
                                   <h5 className="text-dark  mt-15 mb-10">Web Design</h5>
                                   <p className="text-dark mb-0">
-                                       Lorem ipsum dolor sit amet consectetuer
-                                        adipiscing elit aenean commodo ligula eget.</p>
+                                    Experience on working on the css, html5 and bootstrap </p>
                               </div>
                           </div>
                       </div>
-                      <div className="col-sm-6 col-lg-4">
-                          <div className="item">
-                              <div className="circle">
-                                  <h2>03</h2>
-                              </div>
-                              <div className="content">
-                                  <h5 className="text-dark  mt-15 mb-10">Web Development</h5>
-                                  <p className="text-dark mb-0"> Lorem ipsum dolor sit amet 
-                                      consectetuer adipiscing elit aenean commodo ligula eget.</p>
-                              </div>
-                          </div>
-                      </div>
+                     
                       <div className="col-sm-6 col-lg-4">
                           <div className="item">
                               <div className="circle">
                                   <h2>04</h2>
                               </div>
                               <div className="content">
-                                  <h5 className="text-dark  mt-15 mb-10">Graphic Design</h5>
-                                  <p className="text-dark mb-0"> Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                                  <h5 className="text-dark  mt-15 mb-10">Testing</h5>
+                                  <p className="text-dark mb-0"> 
+                                  Experience in unit and End-To-End testing, using a TDD approach with tools like Jest with Enzyme, Mocha, junit, N-Unit with Seleniun web automation Testing
+                                  </p>
                               </div>
                           </div>
                       </div>
@@ -495,8 +500,8 @@ function App() {
                                   <h2>05</h2>
                               </div>
                               <div className="content">
-                                  <h5 className="text-dark mt-15 mb-10">Branding</h5>
-                                  <p className="text-dark mb-0"> Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                                  <h5 className="text-dark mt-15 mb-10">Team Lead</h5>
+                                  <p className="text-dark mb-0"> Handling onshore and offshore team and closely working with the client.</p>
                               </div>
                           </div>
                       </div>
@@ -506,9 +511,9 @@ function App() {
                                   <h2>06</h2>
                               </div>
                               <div className="content">
-                                  <h5 className="text-dark  mt-15 mb-10">Marketing</h5>
-                                  <p className="text-dark mb-0"> Lorem ipsum dolor sit
-                                       amet consectetuer adipiscing elit aenean commodo ligula eget.
+                                  <h5 className="text-dark  mt-15 mb-10">Dev-ops</h5>
+                                  <p className="text-dark mb-0"> Experience on deployment of code on the Azure web-app, vm, Aws, Heroku with the help of
+                                  Azure-Devops pipeline and Jenkin. Also working Docker and Kubernete.
                                   </p>
                               </div>
                           </div>
