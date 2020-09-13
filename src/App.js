@@ -216,7 +216,7 @@ function App() {
              
                               </ul>
   
-                              <a href="./images/resume.pdf" className="btn-custom" download="resume-devesh">
+                              <a href="./images/Devesh-Resume.pdf" className="btn-custom" download="resume-devesh">
                                   <span><i className="fas fa-cloud-download-alt"></i></span>
                                   <span>Download My CV</span>
                               </a>
@@ -451,7 +451,7 @@ function App() {
                               <div className="content ">
                                   <h5 className="text-dark mt-15 mb-10">Full Stack Development</h5>
                                   <p className="text-dark mb-0">
-                                  Experience in fullstack development.
+                                  Experience in fullstack development with the Frontend and backend technology. Have worked on the .net core, reast api and Graphql. 
                                   </p>
                               </div>
                           </div>
@@ -501,7 +501,8 @@ function App() {
                               </div>
                               <div className="content">
                                   <h5 className="text-dark mt-15 mb-10">Team Lead</h5>
-                                  <p className="text-dark mb-0"> Handling onshore and offshore team and closely working with the client.</p>
+                                  <p className="text-dark mb-0"> Handling onshore and offshore team and closely working with the client.</p> -	Working with business stakeholders and providing a clear understanding of the delivery objective on the part of the technical team.
+                                  
                               </div>
                           </div>
                       </div>
@@ -546,8 +547,8 @@ function App() {
                               </div>
                           
                               <div className="details d-flex align-items-center">
-                                  <p className="mb-0">Graphic Design</p>
-                                  <a href="#" className="ml-auto"><i className="fas fa-external-link-alt"></i> </a> 
+                                  <p className="mb-0">Institute Of Advance Study</p>
+                                  <a href="https://iot-institue.herokuapp.com/" className="ml-auto"><i className="fas fa-external-link-alt"></i> </a> 
                               </div>
                           </div>
                       </div>
@@ -596,8 +597,8 @@ function App() {
                               </div>
                   
                               <div className="details d-flex align-items-center">
-                                  <p className="mb-0">Graphic Design</p>
-                                  <a href="#" className="ml-auto">
+                                  <p className="mb-0">Shoping WebSite</p>
+                                  <a href="https://protected-shelf-97894.herokuapp.com/#" className="ml-auto">
                                       <i className="fas fa-external-link-alt"></i>
                                   </a>
                               </div>
@@ -645,7 +646,7 @@ function App() {
           {/* <!-- testimonials--> */}
         {/* testimonials*/}
       <section className="section testimonials">
-        <div className="container">
+        {/* <div className="container">
           <div className="row mb-50">
             <div className="col-md-12">
               <div className="section-title">
@@ -653,15 +654,12 @@ function App() {
                 <p className="text-muted mb-0">What My Clients Say About Me .</p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/*testimonials-items*/}
-          <div className="row">
+          {/* <div className="row">
             <div className="col-12">
               <div className="owl-carousel owl-loaded owl-drag">
-                {/*item 1*/}
-                {/*item 2*/}
-                {/*item 3*/}
-                <div className="owl-stage-outer">
+                 <div className="owl-stage-outer">
                   <div className="owl-stage" style={{transform: 'translate3d(-1140px, 0px, 0px)', transition: 'all 0s ease 0s', width: '4000px', paddingLeft: '5px', paddingRight: '5px'}}>
                     <div className="owl-item cloned" style={{width: '530px', marginRight: '40px'}}>
                       <div className="item d-flex align-items-center">
@@ -753,7 +751,7 @@ function App() {
                       </div></div></div></div><div className="owl-nav disabled"><button type="button" role="presentation" className="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" className="owl-next"><span aria-label="Next">›</span></button></div><div className="owl-dots"><button role="button" className="owl-dot active"><span /></button><button role="button" className="owl-dot"><span /></button></div></div> 
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       
